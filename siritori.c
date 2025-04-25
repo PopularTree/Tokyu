@@ -1,6 +1,6 @@
 #include "tokyu.h"
 
-static int used_check[N]; //同じ駅名は一度だけしか使うことができないと仮定する
+static int used_check[N];
 static int loop;
 
 int find_next_word(char *name, char **station, char *next_word, int i)
